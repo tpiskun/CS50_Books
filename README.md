@@ -18,16 +18,16 @@ There is a file called create.py that is a script that creates these SQL databas
 
 Additionally, there is a file called import.py that imports all of the 5000 books that should be included in the "books" SQL database. To avoid manually inserting each book into the table, the import.py script handles it in an ad-hoc instance.
 
-##Installation
-This project requires flask. Once flask is installed, you will also need a database to store your table values. For this project, I used a Heroku database. 
+## Installation
+This project requires flask. Once flask is installed, you will also need a database to store your table values. For this project, I used a Heroku database.
 
-##API Reference
+## API Reference
 Since this project refers to the API on GoodReads, here is the documentation that was used:
   https://www.goodreads.com/api
 
 I used the get book.review_counts API method to get the statistics I needed.
 
-##How to Use?
+## How to Use?
 This is to be run using flask with the following parameters:
 
 ```
@@ -43,5 +43,5 @@ $ export DATABASE_URL= <Heroku Database Credentials>
 $ Flask Run
 ```
 
-##Credits
+## Credits
 Source Code provided by Harvard's CS50 curriculum and professor Brian Yu.
